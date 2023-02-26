@@ -1,0 +1,21 @@
+#local terraform dir
+.terraform/*
+
+#tf state file
+*.tfstate
+*.tfstate.*
+
+# tf var file
+*.tfvars
+
+# CLI config file
+.terraformrc
+terraform.rc
+
+# MACOS
+.DS_Store
+
+# crash log
+crash.log
+
+.env
